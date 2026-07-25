@@ -1,4 +1,4 @@
-# Mid-Project Progress Report
+# Project Progress Report
 
 ## 1. Work Completed During This Period
 
