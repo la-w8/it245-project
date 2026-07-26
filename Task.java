@@ -1,8 +1,8 @@
 public class Task implements Comparable<Task> {
-    private int taskId;
-    private String taskName;
-    private int arrivalTime;
-    private int priority; // الأولوية (كلما قل الرقم، زادت الأولوية مثلاً)
+    public int taskId;
+    public String taskName;
+    public int arrivalTime;
+    public int priority; // الأولوية (كلما قل الرقم، زادت الأولوية مثلاً)
 
     // Constructor (دالة البناء)
     public Task(int taskId, String taskName, int arrivalTime, int priority) {
