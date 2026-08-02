@@ -1,4 +1,5 @@
 import java.util.PriorityQueue;
+
 public class PriorityScheduler {
 
     public static void priorityScheduling(PriorityQueue<Task> pQueue) {
