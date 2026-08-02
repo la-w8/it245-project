@@ -1,6 +1,4 @@
 import java.util.PriorityQueue;
-import java.util.Comparator;
-
 public class PriorityScheduler {
 
     public static void priorityScheduling(PriorityQueue<Task> pQueue) {
