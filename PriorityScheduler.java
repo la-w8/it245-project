@@ -4,7 +4,7 @@ public class PriorityScheduler {
 
     public static void priorityScheduling(PriorityQueue<Task> pQueue) {
 
-        System.out.println("===== Priority Queue Scheduling =====");
+         System.out.println("===== Priority Queue Scheduling =====");
 
         int currentTime = 0;
 
