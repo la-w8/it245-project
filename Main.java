@@ -17,7 +17,13 @@ public class Main {
         
         // [2] Test FIFO Queue Scheduling 
         System.out.println("\n[+] Testing FIFO Queue Scheduling ...");
-        // queueScheduling(tasksQueue);
+       
+        Queue<Task> tasksQueue = new LinkedList<>();
+        tasksQueue.add(t1);
+        tasksQueue.add(t2);
+        tasksQueue.add(t3);
+        
+        QueueScheduling.queueScheduling(tasksQueue);
 
         // [3] Test Priority Queue Scheduling
         System.out.println("\n[+] Testing Priority Queue Scheduling ...");
