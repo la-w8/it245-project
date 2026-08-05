@@ -27,8 +27,14 @@ public class Main {
 
         // [3] Test Priority Queue Scheduling
         System.out.println("\n[+] Testing Priority Queue Scheduling ...");
-        // priorityScheduling(priorityQueue);
+        
+        PriorityQueue<Task> priorityQueue = new PriorityQueue<>();
+        priorityQueue.add(t1);
+        priorityQueue.add(t2);
+        priorityQueue.add(t3);
 
+         PriorityScheduler.priorityScheduling(priorityQueue);
+        
         System.out.println("\n==========================================");
         System.out.println("       Test Execution Completed!           ");
         System.out.println("==========================================");
