@@ -25,7 +25,7 @@ System.out.println("Task ID      : " + currentTask.taskId);
 System.out.println("Task Name    : " + currentTask.taskName);
 System.out.println("Priority     : " + currentTask.priority);
 System.out.println("Arrival Time : " + currentTask.arrivalTime);
-System.out.println("Start Time   : " + start);
+System.out.println("Start Time   : " + start); 
 System.out.println("Finish Time  : " + finish);
 System.out.println("Wait Time    : " + wait);
 
